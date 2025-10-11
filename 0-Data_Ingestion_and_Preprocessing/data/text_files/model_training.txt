@@ -1,0 +1,10 @@
+# Model Training
+
+In this notebook (5-model_training.ipynb), we will train our ML models.
+Topics covered:
+
+- Train/Test split
+- Cross-validation
+- Training models (Linear Regression, Decision Trees, Random Forests)
+- Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
+- Saving and loading models with joblib/pickle

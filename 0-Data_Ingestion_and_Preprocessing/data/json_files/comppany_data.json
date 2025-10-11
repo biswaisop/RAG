@@ -1,0 +1,936 @@
+{
+  "company": {
+    "name": "TechVision Solutions",
+    "founded": "2015",
+    "headquarters": "San Francisco, CA",
+    "industry": "Software Development",
+    "employee_count": 150,
+    "annual_revenue": "$25M"
+  },
+  "departments": [
+    {
+      "id": "D001",
+      "name": "Engineering",
+      "head": "EMP001",
+      "budget": 5000000,
+      "location": "San Francisco"
+    },
+    {
+      "id": "D002",
+      "name": "Product Management",
+      "head": "EMP006",
+      "budget": 2000000,
+      "location": "San Francisco"
+    },
+    {
+      "id": "D003",
+      "name": "Data Science",
+      "head": "EMP011",
+      "budget": 3000000,
+      "location": "Remote"
+    },
+    {
+      "id": "D004",
+      "name": "Marketing",
+      "head": "EMP016",
+      "budget": 1500000,
+      "location": "New York"
+    },
+    {
+      "id": "D005",
+      "name": "Human Resources",
+      "head": "EMP020",
+      "budget": 800000,
+      "location": "San Francisco"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "Sarah Chen",
+      "role": "VP of Engineering",
+      "department_id": "D001",
+      "email": "sarah.chen@techvision.com",
+      "hire_date": "2015-06-01",
+      "salary": 180000,
+      "skills": [
+        "Leadership",
+        "System Architecture",
+        "Python",
+        "Cloud Computing",
+        "Team Management"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ003"
+      ],
+      "certifications": [
+        "AWS Solutions Architect",
+        "PMP"
+      ]
+    },
+    {
+      "id": "EMP002",
+      "name": "Michael Rodriguez",
+      "role": "Senior Software Engineer",
+      "department_id": "D001",
+      "email": "michael.rodriguez@techvision.com",
+      "hire_date": "2017-03-15",
+      "salary": 145000,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "React"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ005"
+      ],
+      "certifications": [
+        "Kubernetes Administrator"
+      ]
+    },
+    {
+      "id": "EMP003",
+      "name": "Emily Watson",
+      "role": "Software Engineer",
+      "department_id": "D001",
+      "email": "emily.watson@techvision.com",
+      "hire_date": "2019-08-20",
+      "salary": 120000,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "GraphQL"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ002"
+      ],
+      "certifications": []
+    },
+    {
+      "id": "EMP004",
+      "name": "David Kim",
+      "role": "DevOps Engineer",
+      "department_id": "D001",
+      "email": "david.kim@techvision.com",
+      "hire_date": "2018-11-10",
+      "salary": 135000,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "CI/CD",
+        "Jenkins",
+        "Docker",
+        "Monitoring"
+      ],
+      "projects": [
+        "PRJ003",
+        "PRJ004"
+      ],
+      "certifications": [
+        "AWS DevOps Professional",
+        "Terraform Associate"
+      ]
+    },
+    {
+      "id": "EMP005",
+      "name": "Jessica Martinez",
+      "role": "QA Engineer",
+      "department_id": "D001",
+      "email": "jessica.martinez@techvision.com",
+      "hire_date": "2020-02-01",
+      "salary": 105000,
+      "skills": [
+        "Test Automation",
+        "Selenium",
+        "Python",
+        "API Testing",
+        "Performance Testing"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ002",
+        "PRJ005"
+      ],
+      "certifications": [
+        "ISTQB Advanced"
+      ]
+    },
+    {
+      "id": "EMP006",
+      "name": "Robert Taylor",
+      "role": "Director of Product",
+      "department_id": "D002",
+      "email": "robert.taylor@techvision.com",
+      "hire_date": "2016-04-12",
+      "salary": 165000,
+      "skills": [
+        "Product Strategy",
+        "Market Analysis",
+        "Agile",
+        "User Research",
+        "Roadmapping"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ002",
+        "PRJ003"
+      ],
+      "certifications": [
+        "Certified Product Manager"
+      ]
+    },
+    {
+      "id": "EMP007",
+      "name": "Amanda Foster",
+      "role": "Senior Product Manager",
+      "department_id": "D002",
+      "email": "amanda.foster@techvision.com",
+      "hire_date": "2018-07-08",
+      "salary": 140000,
+      "skills": [
+        "Product Management",
+        "A/B Testing",
+        "Analytics",
+        "Wireframing",
+        "SQL"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ005"
+      ],
+      "certifications": [
+        "Pragmatic Marketing"
+      ]
+    },
+    {
+      "id": "EMP008",
+      "name": "Chris Anderson",
+      "role": "Product Manager",
+      "department_id": "D002",
+      "email": "chris.anderson@techvision.com",
+      "hire_date": "2020-09-15",
+      "salary": 125000,
+      "skills": [
+        "Product Development",
+        "Customer Interviews",
+        "Jira",
+        "Figma",
+        "Data Analysis"
+      ],
+      "projects": [
+        "PRJ002",
+        "PRJ004"
+      ],
+      "certifications": []
+    },
+    {
+      "id": "EMP009",
+      "name": "Lisa Thompson",
+      "role": "UX Designer",
+      "department_id": "D002",
+      "email": "lisa.thompson@techvision.com",
+      "hire_date": "2019-05-20",
+      "salary": 115000,
+      "skills": [
+        "UI/UX Design",
+        "Figma",
+        "Adobe XD",
+        "User Testing",
+        "Prototyping"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ002"
+      ],
+      "certifications": [
+        "Nielsen Norman Group UX Certificate"
+      ]
+    },
+    {
+      "id": "EMP010",
+      "name": "Kevin Patel",
+      "role": "Technical Writer",
+      "department_id": "D002",
+      "email": "kevin.patel@techvision.com",
+      "hire_date": "2021-01-10",
+      "salary": 95000,
+      "skills": [
+        "Technical Writing",
+        "Documentation",
+        "API Documentation",
+        "Markdown",
+        "Git"
+      ],
+      "projects": [
+        "PRJ001",
+        "PRJ003",
+        "PRJ005"
+      ],
+      "certifications": []
+    },
+    {
+      "id": "EMP011",
+      "name": "Dr. Rachel Singh",
+      "role": "Head of Data Science",
+      "department_id": "D003",
+      "email": "rachel.singh@techvision.com",
+      "hire_date": "2017-01-15",
+      "salary": 175000,
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TensorFlow",
+        "Statistics",
+        "Big Data",
+        "Leadership"
+      ],
+      "projects": [
+        "PRJ004",
+        "PRJ006"
+      ],
+      "certifications": [
+        "PhD in Computer Science",
+        "Google ML Engineer"
+      ]
+    },
+    {
+      "id": "EMP012",
+      "name": "Thomas Brown",
+      "role": "Senior Data Scientist",
+      "department_id": "D003",
+      "email": "thomas.brown@techvision.com",
+      "hire_date": "2018-06-01",
+      "salary": 150000,
+      "skills": [
+        "Deep Learning",
+        "NLP",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "Spark"
+      ],
+      "projects": [
+        "PRJ004",
+        "PRJ006"
+      ],
+      "certifications": [
+        "TensorFlow Developer"
+      ]
+    },
+    {
+      "id": "EMP013",
+      "name": "Maria Garcia",
+      "role": "Data Scientist",
+      "department_id": "D003",
+      "email": "maria.garcia@techvision.com",
+      "hire_date": "2020-03-10",
+      "salary": 130000,
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "Visualization",
+        "R"
+      ],
+      "projects": [
+        "PRJ006"
+      ],
+      "certifications": []
+    },
+    {
+      "id": "EMP014",
+      "name": "James Wilson",
+      "role": "Data Engineer",
+      "department_id": "D003",
+      "email": "james.wilson@techvision.com",
+      "hire_date": "2019-09-05",
+      "salary": 140000,
+      "skills": [
+        "ETL",
+        "Apache Airflow",
+        "Python",
+        "SQL",
+        "AWS",
+        "Data Warehousing"
+      ],
+      "projects": [
+        "PRJ004"
+      ],
+      "certifications": [
+        "AWS Data Analytics"
+      ]
+    },
+    {
+      "id": "EMP015",
+      "name": "Sophie Lee",
+      "role": "ML Engineer",
+      "department_id": "D003",
+      "email": "sophie.lee@techvision.com",
+      "hire_date": "2020-11-01",
+      "salary": 145000,
+      "skills": [
+        "MLOps",
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "TensorFlow",
+        "Model Deployment"
+      ],
+      "projects": [
+        "PRJ006"
+      ],
+      "certifications": [
+        "Kubernetes Administrator"
+      ]
+    },
+    {
+      "id": "EMP016",
+      "name": "Daniel Cooper",
+      "role": "Marketing Director",
+      "department_id": "D004",
+      "email": "daniel.cooper@techvision.com",
+      "hire_date": "2016-08-15",
+      "salary": 155000,
+      "skills": [
+        "Digital Marketing",
+        "Brand Strategy",
+        "SEO",
+        "Content Marketing",
+        "Analytics"
+      ],
+      "projects": [
+        "PRJ007"
+      ],
+      "certifications": [
+        "Google Analytics",
+        "HubSpot Marketing"
+      ]
+    },
+    {
+      "id": "EMP017",
+      "name": "Olivia Johnson",
+      "role": "Content Marketing Manager",
+      "department_id": "D004",
+      "email": "olivia.johnson@techvision.com",
+      "hire_date": "2019-02-20",
+      "salary": 110000,
+      "skills": [
+        "Content Strategy",
+        "SEO",
+        "Copywriting",
+        "Social Media",
+        "Email Marketing"
+      ],
+      "projects": [
+        "PRJ007"
+      ],
+      "certifications": [
+        "HubSpot Content Marketing"
+      ]
+    },
+    {
+      "id": "EMP018",
+      "name": "Brandon White",
+      "role": "Growth Hacker",
+      "department_id": "D004",
+      "email": "brandon.white@techvision.com",
+      "hire_date": "2020-06-01",
+      "salary": 120000,
+      "skills": [
+        "Growth Marketing",
+        "A/B Testing",
+        "Analytics",
+        "SQL",
+        "Python",
+        "Experimentation"
+      ],
+      "projects": [
+        "PRJ007"
+      ],
+      "certifications": [
+        "Google Analytics"
+      ]
+    },
+    {
+      "id": "EMP019",
+      "name": "Ashley Davis",
+      "role": "Social Media Manager",
+      "department_id": "D004",
+      "email": "ashley.davis@techvision.com",
+      "hire_date": "2021-03-15",
+      "salary": 85000,
+      "skills": [
+        "Social Media Marketing",
+        "Community Management",
+        "Content Creation",
+        "Analytics"
+      ],
+      "projects": [
+        "PRJ007"
+      ],
+      "certifications": []
+    },
+    {
+      "id": "EMP020",
+      "name": "Patricia Moore",
+      "role": "HR Director",
+      "department_id": "D005",
+      "email": "patricia.moore@techvision.com",
+      "hire_date": "2015-07-01",
+      "salary": 145000,
+      "skills": [
+        "HR Management",
+        "Talent Acquisition",
+        "Employee Relations",
+        "Compensation",
+        "Culture"
+      ],
+      "projects": [
+        "PRJ008"
+      ],
+      "certifications": [
+        "SHRM-SCP",
+        "HRCI"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ001",
+      "name": "E-Commerce Platform Redesign",
+      "description": "Complete overhaul of the company's flagship e-commerce platform",
+      "status": "In Progress",
+      "start_date": "2024-01-15",
+      "end_date": "2025-06-30",
+      "budget": 2500000,
+      "department_id": "D001",
+      "priority": "High",
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker"
+      ],
+      "team_members": [
+        "EMP001",
+        "EMP002",
+        "EMP003",
+        "EMP005",
+        "EMP006",
+        "EMP007",
+        "EMP009",
+        "EMP010"
+      ],
+      "milestones": [
+        {
+          "name": "Requirements Gathering",
+          "date": "2024-02-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Design Phase",
+          "date": "2024-04-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Development Phase 1",
+          "date": "2024-08-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Development Phase 2",
+          "date": "2025-01-15",
+          "status": "In Progress"
+        },
+        {
+          "name": "Testing & QA",
+          "date": "2025-04-01",
+          "status": "Not Started"
+        },
+        {
+          "name": "Launch",
+          "date": "2025-06-30",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ002",
+      "name": "Mobile App Development",
+      "description": "Native mobile apps for iOS and Android",
+      "status": "In Progress",
+      "start_date": "2024-03-01",
+      "end_date": "2025-09-30",
+      "budget": 1800000,
+      "department_id": "D001",
+      "priority": "High",
+      "technologies": [
+        "React Native",
+        "Firebase",
+        "GraphQL",
+        "Redux"
+      ],
+      "team_members": [
+        "EMP003",
+        "EMP005",
+        "EMP006",
+        "EMP008",
+        "EMP009"
+      ],
+      "milestones": [
+        {
+          "name": "Architecture Design",
+          "date": "2024-04-01",
+          "status": "Completed"
+        },
+        {
+          "name": "MVP Development",
+          "date": "2024-09-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Beta Testing",
+          "date": "2025-02-01",
+          "status": "In Progress"
+        },
+        {
+          "name": "Public Launch",
+          "date": "2025-09-30",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ003",
+      "name": "Cloud Migration",
+      "description": "Migrate all services from on-premise to AWS cloud infrastructure",
+      "status": "In Progress",
+      "start_date": "2024-02-01",
+      "end_date": "2025-12-31",
+      "budget": 3000000,
+      "department_id": "D001",
+      "priority": "Critical",
+      "technologies": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Docker",
+        "Jenkins"
+      ],
+      "team_members": [
+        "EMP001",
+        "EMP004",
+        "EMP010"
+      ],
+      "milestones": [
+        {
+          "name": "Assessment & Planning",
+          "date": "2024-03-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Pilot Migration",
+          "date": "2024-07-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Production Migration - Phase 1",
+          "date": "2024-12-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Production Migration - Phase 2",
+          "date": "2025-06-01",
+          "status": "In Progress"
+        },
+        {
+          "name": "Complete Migration",
+          "date": "2025-12-31",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ004",
+      "name": "AI-Powered Recommendation Engine",
+      "description": "Develop machine learning system for personalized product recommendations",
+      "status": "In Progress",
+      "start_date": "2024-04-01",
+      "end_date": "2025-08-31",
+      "budget": 2200000,
+      "department_id": "D003",
+      "priority": "High",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Apache Spark",
+        "Redis"
+      ],
+      "team_members": [
+        "EMP011",
+        "EMP012",
+        "EMP014",
+        "EMP004",
+        "EMP008"
+      ],
+      "milestones": [
+        {
+          "name": "Data Collection",
+          "date": "2024-06-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Model Development",
+          "date": "2024-10-01",
+          "status": "Completed"
+        },
+        {
+          "name": "A/B Testing",
+          "date": "2025-03-01",
+          "status": "In Progress"
+        },
+        {
+          "name": "Production Deployment",
+          "date": "2025-08-31",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ005",
+      "name": "API Gateway Implementation",
+      "description": "Build unified API gateway for all microservices",
+      "status": "Planning",
+      "start_date": "2025-02-01",
+      "end_date": "2025-10-31",
+      "budget": 800000,
+      "department_id": "D001",
+      "priority": "Medium",
+      "technologies": [
+        "Kong",
+        "GraphQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "team_members": [
+        "EMP002",
+        "EMP005",
+        "EMP007",
+        "EMP010"
+      ],
+      "milestones": [
+        {
+          "name": "Requirements Analysis",
+          "date": "2025-03-01",
+          "status": "In Progress"
+        },
+        {
+          "name": "Architecture Design",
+          "date": "2025-04-15",
+          "status": "Not Started"
+        },
+        {
+          "name": "Development",
+          "date": "2025-08-01",
+          "status": "Not Started"
+        },
+        {
+          "name": "Launch",
+          "date": "2025-10-31",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ006",
+      "name": "Customer Churn Prediction",
+      "description": "ML model to predict and prevent customer churn",
+      "status": "In Progress",
+      "start_date": "2024-05-01",
+      "end_date": "2025-07-31",
+      "budget": 1500000,
+      "department_id": "D003",
+      "priority": "High",
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "XGBoost",
+        "MLflow",
+        "Kubernetes"
+      ],
+      "team_members": [
+        "EMP011",
+        "EMP012",
+        "EMP013",
+        "EMP015"
+      ],
+      "milestones": [
+        {
+          "name": "Feature Engineering",
+          "date": "2024-08-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Model Training",
+          "date": "2024-12-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Model Deployment",
+          "date": "2025-04-01",
+          "status": "In Progress"
+        },
+        {
+          "name": "Production Monitoring",
+          "date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ007",
+      "name": "Brand Awareness Campaign",
+      "description": "Multi-channel marketing campaign to increase brand visibility",
+      "status": "In Progress",
+      "start_date": "2024-09-01",
+      "end_date": "2025-12-31",
+      "budget": 1200000,
+      "department_id": "D004",
+      "priority": "Medium",
+      "technologies": [
+        "HubSpot",
+        "Google Analytics",
+        "SEMrush",
+        "Hootsuite"
+      ],
+      "team_members": [
+        "EMP016",
+        "EMP017",
+        "EMP018",
+        "EMP019"
+      ],
+      "milestones": [
+        {
+          "name": "Campaign Strategy",
+          "date": "2024-10-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Content Creation",
+          "date": "2024-12-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Campaign Launch",
+          "date": "2025-01-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Mid-campaign Review",
+          "date": "2025-07-01",
+          "status": "Not Started"
+        },
+        {
+          "name": "Campaign Completion",
+          "date": "2025-12-31",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "PRJ008",
+      "name": "Employee Development Program",
+      "description": "Comprehensive training and development initiative",
+      "status": "In Progress",
+      "start_date": "2024-01-01",
+      "end_date": "2025-12-31",
+      "budget": 500000,
+      "department_id": "D005",
+      "priority": "Medium",
+      "technologies": [
+        "Learning Management System",
+        "Coursera",
+        "LinkedIn Learning"
+      ],
+      "team_members": [
+        "EMP020"
+      ],
+      "milestones": [
+        {
+          "name": "Needs Assessment",
+          "date": "2024-02-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Program Design",
+          "date": "2024-04-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Program Launch",
+          "date": "2024-06-01",
+          "status": "Completed"
+        },
+        {
+          "name": "Mid-year Review",
+          "date": "2025-06-30",
+          "status": "Not Started"
+        },
+        {
+          "name": "Annual Assessment",
+          "date": "2025-12-31",
+          "status": "Not Started"
+        }
+      ]
+    }
+  ],
+  "office_locations": [
+    {
+      "id": "LOC001",
+      "city": "San Francisco",
+      "address": "123 Tech Street, San Francisco, CA 94105",
+      "capacity": 100,
+      "current_occupancy": 85,
+      "facilities": [
+        "Conference Rooms",
+        "Cafeteria",
+        "Gym",
+        "Game Room",
+        "Library"
+      ]
+    },
+    {
+      "id": "LOC002",
+      "city": "New York",
+      "address": "456 Innovation Ave, New York, NY 10001",
+      "capacity": 30,
+      "current_occupancy": 15,
+      "facilities": [
+        "Conference Rooms",
+        "Kitchen"
+      ]
+    },
+    {
+      "id": "LOC003",
+      "city": "Remote",
+      "address": "N/A",
+      "capacity": 50,
+      "current_occupancy": 20,
+      "facilities": [
+        "Virtual Meeting Rooms",
+        "Online Collaboration Tools"
+      ]
+    }
+  ]
+}

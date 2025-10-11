@@ -1,0 +1,12 @@
+# Feature Engineering
+
+Feature Engineering is the art of creating better inputs for ML models.
+In this notebook (4-feature_engineering.ipynb), we will:
+
+- Encoding categorical variables (OneHot, Label Encoding)
+- Normalization and Standardization
+- Binning numerical variables
+- Feature selection techniques
+- Creating interaction features
+
+Better features = Smarter models.

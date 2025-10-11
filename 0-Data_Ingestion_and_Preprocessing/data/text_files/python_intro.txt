@@ -1,0 +1,12 @@
+# Introduction to Python
+
+Python is one of the most popular programming languages used for Data Science, Web Development, and AI.
+In this notebook (1-data_ingestion.ipynb), we will cover:
+
+- Setting up Python environment
+- Understanding variables and data types
+- Writing simple functions
+- Reading and writing files
+- A quick intro to using external libraries
+
+By the end, you will be able to write basic Python programs and prepare for more advanced topics.

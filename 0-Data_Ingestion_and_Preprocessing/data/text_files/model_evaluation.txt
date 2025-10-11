@@ -1,0 +1,12 @@
+# Model Evaluation
+
+The last step in the ML pipeline is model evaluation.
+In this notebook (6-model_evaluation.ipynb), we will cover:
+
+- Accuracy, Precision, Recall, F1-score
+- ROC-AUC curves
+- Confusion Matrix
+- Bias-variance tradeoff
+- Model interpretability with SHAP/feature importance
+
+Evaluation ensures that our model is reliable and ready for deployment.
